@@ -13,7 +13,7 @@ def loadModel(fileName):
 
 
 model = loadModel(r"E:\programming\python\weatherPredection\DateModel.pkl")
-input_date = ["15-01-2017"]
+input_date = ["15-01-2006"]
 
 # Convert the input_date to a 2D array with a single feature
 input_data = [[int(date.split('-')[0])] for date in input_date]
